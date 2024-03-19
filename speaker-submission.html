@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaker Submission</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    <header class = "speaker-form-header">
+        <h1>          
+          Speaker Submission
+        </h1>
+        <p>
+          <em>
+            Want to speak at our love conference? Fill out this form.
+          </em>
+      </p>
+      </header>
+
+      <form action = '' method = 'get' class = 'speaker-form'> 
+
+        <div class = 'form-row'>
+          <label for="Full-name">Your Name</label>
+          <input id="Full-name" name="full-name" type="text" placeholder="Gaizel Lapig"/>
+        </div>
+    
+        <div class = 'form-row'>
+          <label for="Email">Your Email</label>
+          <input id="Email" type="email" placeholder="john@example.com"/>
+        </div>
+
+        <div class = 'form-row'>
+          <label for="Title">Your Title</label>
+          <input id="Title" type="text" placeholder="A Roller Coaster Ride with Her"/>
+        </div>
+
+        <div class="form-row">
+          <label for="Bio">Your Story</label>
+          <textarea id="Bio" rows="8" placeholder="Tell the world about your wonderful story"></textarea>
+        </div>
+
+        <div class='form-row'>
+          <label for='story-genre'>Story Genre</label>
+          <select id='story-genre' name='story-genre'>
+          <option value='inspiring'>Inspiring</option>
+          <option value='jealousy'>Jealousy</option>
+          <option value='heartbreaking'>Heartbreaking</option>
+          <option value='dramatic'>Dramatic</option>
+          </select>
+        </div>
+
+      <div class='form-row'>
+        <label for='abstract'>Special Shout-Outs</label>
+        <textarea id='abstract' name='abstract' placeholder="Optional"></textarea>
+      </div>
+      <div class="pildset">
+        <fieldset class="legacy-form-row">
+          <legend>Type of Conference</legend>
+          <input id="talk-type-1" name ="talk-type" type="radio" value="Podcast" />
+          <label for="talk-type-1" class="radio-label">Podcast</label>
+
+          <input id="talk-type-2" name ="talk-type" type="radio" value="Online" />
+          <label for="talk-type-2" class="radio-label">Online</label>
+        </fieldset>
+      </div>
+
+      <div class='form-row'>
+      <label class='checkbox-label' for='agree'>
+        <input id='agree'
+        name='agree'
+        type='checkbox'
+        value='yes-agree'/>
+        <span>I agree to share my love story to the world.</span>
+        </label>
+      </div>
+
+      
+      <div class="button-container"> 
+        <a href="speaker-submission.html" class="speaker-button">Broadcast Your Story</a>
+      <a href="index.html" class="speaker-button">Go Back To Main</a>
+      </div>
+
+      
+       
+
+      </form>
+      
+</body>
+</html>
